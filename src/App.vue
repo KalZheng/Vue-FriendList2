@@ -1,8 +1,8 @@
 <template>
   <section>
     <h2>My Friends</h2>
-    <ul v-for="friend in friends" :key="friend.id">
-      <li></li>
+    <ul>
+      <friend-contact />
     </ul>
   </section>
 </template>
