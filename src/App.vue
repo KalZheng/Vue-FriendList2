@@ -4,8 +4,18 @@
       <h1>My Friends</h1>
     </header>
     <ul>
-      <friend-contact name="manuel" phone-number="2133123" email-address="manuel@email.com"></friend-contact>
-      <friend-contact name="julie" phone-number="123" email-address="julie@email.com" ></friend-contact>
+      <friend-contact
+        name="Manuel Test"
+        phone-number="2133123"
+        email-address="manuel@email.com"
+        is-favorite="1"
+      ></friend-contact>
+      <friend-contact
+        name="Julie Test"
+        phone-number="123"
+        email-address="julie@email.com"
+        is-favorite="0"
+      ></friend-contact>
     </ul>
   </section>
 </template>
@@ -34,7 +44,7 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
 * {
   box-sizing: border-box;
 }
